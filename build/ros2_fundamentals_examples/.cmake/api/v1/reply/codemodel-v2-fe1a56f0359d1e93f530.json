@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-03dbf6e579243937dab4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_fundamentals_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2_fundamentals_examples_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2_fundamentals_examples_egg-2bf39e5d29a2a2a94efb.json",
+					"name" : "ament_cmake_python_build_ros2_fundamentals_examples_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros2_fundamentals_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros2_fundamentals_examples-172123956e9655385a97.json",
+					"name" : "ament_cmake_python_copy_ros2_fundamentals_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minimal_cpp_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minimal_cpp_publisher-e949dc2c8336a2bcfa65.json",
+					"name" : "minimal_cpp_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minimal_cpp_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minimal_cpp_subscriber-5c5a021f8ba9f2ff9082.json",
+					"name" : "minimal_cpp_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_fundamentals_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_fundamentals_examples_uninstall-f7ca24802962b9dd845b.json",
+					"name" : "ros2_fundamentals_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-37ff45e9a6a615e66bcc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jesvin-paul/ros2_ws/src/build/ros2_fundamentals_examples",
+		"source" : "/home/jesvin-paul/ros2_ws/src/ros2_fundamentals_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

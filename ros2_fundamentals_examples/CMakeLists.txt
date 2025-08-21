@@ -35,11 +35,11 @@ include_directories(
 # Tells CMake to create an executable target named cpp_minimal_publisher
 # from the source file src/cpp_minimal_publisher.cpp. Also make sure CMake
 # knows about the program's dependencies.
-add_executable(minimal_cpp_publisher src/cpp_minimal_publisher.cpp)
-ament_target_dependencies(minimal_cpp_publisher ${dependencies})
+add_executable(cpp_minimal_publisher src/cpp_minimal_publisher.cpp)
+ament_target_dependencies(cpp_minimal_publisher ${dependencies})
 
-add_executable(minimal_cpp_subscriber src/cpp_minimal_subscriber.cpp)
-ament_target_dependencies(minimal_cpp_subscriber ${dependencies})
+add_executable(cpp_minimal_subscriber src/cpp_minimal_subscriber.cpp)
+ament_target_dependencies(cpp_minimal_subscriber ${dependencies})
  
 # Copy necessary files to designated locations in the project
 install (
@@ -55,8 +55,8 @@ install(
 # Install cpp executables
 install(
   TARGETS
-  minimal_cpp_publisher
-  minimal_cpp_subscriber
+  cpp_minimal_publisher
+  cpp_minimal_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
  
@@ -67,6 +67,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(
   PROGRAMS
   ros2_fundamentals_examples/py_minimal_publisher.py
+  ros2_fundamentals_examples/py_minimal_subscriber.py
   DESTINATION lib/${PROJECT_NAME}
 )
  

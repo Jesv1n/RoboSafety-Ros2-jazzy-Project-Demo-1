@@ -1,0 +1,8 @@
+setup.py
+ros2_fundamentals_examples/__init__.py
+ros2_fundamentals_examples/py_minimal_publisher.py
+ros2_fundamentals_examples/py_minimal_subscriber.py
+ros2_fundamentals_examples.egg-info/PKG-INFO
+ros2_fundamentals_examples.egg-info/SOURCES.txt
+ros2_fundamentals_examples.egg-info/dependency_links.txt
+ros2_fundamentals_examples.egg-info/top_level.txt

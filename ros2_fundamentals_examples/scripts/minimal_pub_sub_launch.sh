@@ -1,5 +1,7 @@
 #!/bin/bash
-
+"""
+  This is a wrapper to run both the publisher and subscriber nodes.
+"""
 cleanup(){
     echo "Restarting ROS 2 daemon to cleanup before shutting down all processes...."
     ros2 daemon stop

@@ -13,7 +13,7 @@ Subscription topics:
        /py_example_topic - std_msgs/String
 
 -----------------------
-Author: Jesvin Apaul
+Author: Jesvin paul
 Date: August 15, 2025
 """
 

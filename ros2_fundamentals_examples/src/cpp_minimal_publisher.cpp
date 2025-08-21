@@ -16,8 +16,8 @@
  *   String message
  *   /cpp_example_topic - std_msgs/String
  * -------
- * @author Addison Sears-Collins
- * @date November 5, 2024
+ * @author Jesvin Paul
+ * @date 20th August 2025
  */
  
 #include <rclcpp/rclcpp.hpp>// ROS 2 C++ client library
